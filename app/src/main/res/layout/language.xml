@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA8072"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello,"
+        android:textSize="40dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/text1"
+        android:layout_toRightOf="@id/text1"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="50dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c"
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:text="@string/java"
+        android:id="@+id/button2"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:text="@string/php"
+        android:id="@+id/button3"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
